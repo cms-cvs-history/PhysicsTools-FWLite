@@ -1,0 +1,12 @@
+<environment>
+<use name=boost>
+
+<use name=cppunit>
+</environment>
+<bin name=testPhysicsToolsFWLite 
+  file=testRunner.cc,stdnamespaceadder_t.cppunit.cc>
+  <use name=cppunit>
+  <use name=PhysicsTools/FWLite>
+</bin>
+
+
