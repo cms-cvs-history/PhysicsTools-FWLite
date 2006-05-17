@@ -1,2 +1,0 @@
-gSystem->Load("libPhysicsToolsFWLite")
-AutoLibraryLoader::enable()
