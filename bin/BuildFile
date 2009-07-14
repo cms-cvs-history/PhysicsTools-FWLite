@@ -4,8 +4,6 @@
 
 <bin name=secvtxMassTemplates.exe file=secvtxMassTemplates.cc>
  <use name=root>
- <use name=rootcintex>
- <use name=boost>
  <use name=FWCore/FWLite>
  <use name=FWCore/Framework>
  <use name=DataFormats/FWLite>
