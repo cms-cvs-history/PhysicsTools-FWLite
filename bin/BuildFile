@@ -3,7 +3,7 @@
 <environment>
 
 
-<bin name=secvtxMassTemplates.exe file=secvtxMassTemplates.cc
+<bin name=secvtxMassTemplates.exe file=secvtxMassTemplates.cc>
  <use name=root>
  <use name=rootcintex>
  <use name=boost>
