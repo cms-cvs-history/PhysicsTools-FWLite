@@ -1,0 +1,15 @@
+<!-- -*- XML -*- -->
+
+<environment>
+
+
+<bin name=testTH1Store.exe file=testTH1Store.cc>
+ <use name=root>
+ <use name=FWCore/FWLite>
+ <use name=FWCore/Framework>
+ <use name=DataFormats/FWLite>
+ <use name=DataFormats/PatCandidates>
+ <use name=PhysicsTools/FWLite>
+</bin>
+
+</environment>
