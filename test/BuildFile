@@ -12,4 +12,15 @@
  <use name=PhysicsTools/FWLite>
 </bin>
 
+<bin name=testScanner.exe file=testScanner.cc>
+ <use name=root>
+ <use name=rootgraphics>
+ <use name=FWCore/FWLite>
+ <use name=FWCore/Framework>
+ <use name=DataFormats/FWLite>
+ <use name=DataFormats/TrackReco>
+ <use name=PhysicsTools/FWLite>
+</bin>
+
+
 </environment>
