@@ -18,9 +18,9 @@ int main(int argc, char* argv[])
 
   // get the python configuration
   PythonProcessDesc builder(argv[1]);
-  const edm::ParameterSet& cfg = builder.processDesc()->getProcessPSet()->getParameter<edm::ParameterSet>("MuonAnalyzer");
+  const edm::ParameterSet& cfg = *(builder.processDesc()->getProcessPSet());
 
-  WrappedFWLiteMuonAnalyzer ana(cfg, std::string("analyzeBasicPat"));
+  WrappedFWLiteMuonAnalyzer ana(cfg, std::string("MuonAnalyzer"), std::string("analyzeBasicPat"));
   ana.beginJob();
   ana.analyze();
   ana.endJob();
